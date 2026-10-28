@@ -5,7 +5,7 @@
 
 
 // 显示在开始画面上的单元名称 · unit name shown on the start screen
-const UNIT_NAME = "中三 单元一";
+const UNIT_NAME = "中二第一单元";
 
 // 每一局的时间，单位是秒 · seconds per run
 const SECONDS = 90;
@@ -19,16 +19,14 @@ const SECONDS = 90;
 //   3. 至少 8 个词语（最少 4 个才跑得起来），越多越好
 //
 const VOCAB = [
-  { word: "维护", def: "保持、保障，使不受破坏" },
-  { word: "策略", def: "为了达到某个目标而定下的计划或方法" },
-  { word: "催促", def: "叫人赶快行动，不要拖延" },
-  { word: "沉浸", def: "完全进入某种境界或思想活动中" },
-  { word: "渲染", def: "夸大地形容，使气氛更浓" },
-  { word: "斟酌", def: "反复考虑，仔细掂量是否合适" },
-  { word: "潜移默化", def: "在不知不觉中受到影响而发生变化" },
-  { word: "锲而不舍", def: "一直刻下去不放手，比喻有恒心、不放弃" },
-  { word: "南辕北辙", def: "行动和目的正好相反，永远到不了" },
-  { word: "举一反三", def: "从一件事类推，懂得其他许多事" },
+  { word: "爸爸", def: "对父亲的亲切称呼" },
+  { word: "妈妈", def: "对母亲的亲切称呼" },
+  { word: "家庭", def: "以婚姻和血缘关系为基础，一家人共同生活的单位" },
+  { word: "晚餐", def: "傍晚或晚上吃的那一顿饭" },
+  { word: "旅行", def: "离开家到外地去游览、观光" },
+  { word: "快乐", def: "感到满足和幸福，心里很高兴" },
+  { word: "照片", def: "用相机拍下来的人物或景物的图像" },
+  { word: "记录", def: "把听到、看到或发生的事写下来保存" },
   // ↑ 照上面的格式往下加就行。别忘了行尾的逗号。
   // ↑ Add more in the same format. Don't forget the comma at the end of each line.
 ];
